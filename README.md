@@ -180,6 +180,14 @@ PBR材质(Physically-Based Rendering)
 
 
 
+## c++垃圾回收
+
+vczh的demo：[https://github.com/vczh/vczh_toys/tree/master/CppGarbageCollection](https://github.com/vczh/vczh_toys/tree/master/CppGarbageCollection)
+
+opencascade也有自己的垃圾回收机制
+
+v8引擎中的gc-oilpan：[https://github.com/oilpan-gc/cppgc](https://github.com/oilpan-gc/cppgc)
+
 
 
 
