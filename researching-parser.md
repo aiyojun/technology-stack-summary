@@ -41,5 +41,9 @@ x? ->  :  x | ε
 
 ## ANTLR是LL(k)方法，能解决formal language的parsing
 
+使用LL(k)解析的技巧：
+1. 对当前序列的解释
+2. 对多语义的解释进行mark
+3. pick优先级高的解释/使用优先级高的解释
 
 
