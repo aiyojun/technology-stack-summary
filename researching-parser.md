@@ -29,7 +29,7 @@ first集和follow集能发挥什么样的作用？
 对终结符进行分类：
 
 1. 只能是前缀(prefix)的运算符，如'+', '-'
-2. 只能是中缀(infix)的运算符，如'+', '-', '*', '/'
+2. 只能是中缀(infix)的运算符，如'+', '-', '\*', '/'
 3. 只能是后缀(suffix)的运算符，如'++', '--'
 
 结合性：左递归是左结合，右递归是右结合。
@@ -60,4 +60,9 @@ PEG: parser expression grammar
 The main difference between a context free grammar (CFG) and parsing expression grammars (PEG) is that PEGs resolve any conflicts automatically by having ordered choice (let's call it the / operator.), whereas the choice operator in CFGs is not ordered (let's call it the | operator) and can introduce shift reduce conflicts.
 ```
 
+
+### scala语法研究相关
+
+scalameta https://scalameta.org/
+astexplorer https://astexplorer.net/
 

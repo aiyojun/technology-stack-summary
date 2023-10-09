@@ -59,6 +59,17 @@ c#原生提供，不做解释。
 
 官网：[https://mahapps.com/](https://mahapps.com/)
 
+### Avalonia
+
+有vscode插件可用: Avalonia for VS Code
+
+依赖.NET 7?
+
+```
+dotnet new install Avalonia.Template
+dotnet new avalonia.app -o MyApp
+```
+
 ### GacUI - vczh提供
 
 使用xml
